@@ -8,7 +8,7 @@ export default {
 
   render: {
     port: {
-      public: 80,
+      public: 443,
       private: 19926,
     },
     host: 'twitch-monitor.rotenberg.io',
