@@ -15,15 +15,6 @@ export default {
     protocol: 'http',
   },
 
-  flux: {
-    port: {
-      public: 8080,
-      private: 8080,
-    },
-    host: 'localhost',
-    protocol: 'http',
-  },
-
   intl: {
     en,
     'en-US': en,
@@ -33,5 +24,5 @@ export default {
 
   INT_MAX: 9007199254740992,
   DEFAULT_CLIENT_ID: 'DefaultClientId',
-  APP_ROOT_ID: 'ReactNexusChatAppRoot',
+  APP_ROOT_ID: 'ReactNexusTwitchMonitor',
 };

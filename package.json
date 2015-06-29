@@ -1,6 +1,6 @@
 {
-  "name": "react-nexus-chat",
-  "version": "3.1.1",
+  "name": "twitch-monitor",
+  "version": "0.0.1",
   "description": "",
   "main": "src/server.jsx",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/elierotenberg/react-nexus-chat.git"
+    "url": "https://github.com/elierotenberg/twitch-monitor.git"
   },
   "author": "Elie Rotenberg <elie@rotenberg.io>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elierotenberg/react-nexus-chat/issues"
+    "url": "https://github.com/elierotenberg/twitch-monitor/issues"
   },
-  "homepage": "https://github.com/elierotenberg/react-nexus-chat",
+  "homepage": "https://github.com/elierotenberg/twitch-monitor",
   "dependencies": {
     "autoprefixer-core": "^5.2.0",
     "babel": "^5.5.8",
@@ -39,7 +39,7 @@
     "gulp-insert": "^0.4.0",
     "gulp-plumber": "^1.0.1",
     "gulp-postcss": "^5.1.8",
-    "gulp-react-statics-styles": "^4.0.1",
+    "gulp-react-statics-styles": "^4.0.2",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^1.2.0",
@@ -47,6 +47,7 @@
     "highlight.js": "^8.6.0",
     "isomorphic-router": "^1.4.0",
     "jsesc": "^0.5.0",
+    "jsonp": "^0.2.0",
     "lodash": "^3.9.3",
     "moment": "^2.10.3",
     "morgan": "^1.6.0",
@@ -59,7 +60,8 @@
     "react": "^0.13.3",
     "react-identicon": "^1.0.2",
     "react-nexus": "^3.5.2",
-    "react-statics-styles": "^3.0.1",
+    "react-statics-styles": "^3.0.2",
+    "react-transform-props": "^1.0.1",
     "remarkable": "^1.6.0",
     "serve-favicon": "^2.3.0",
     "sha256": "^0.2.0",

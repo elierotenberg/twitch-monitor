@@ -28,13 +28,9 @@ function spawn(role) {
 
 if(cluster.isMaster) {
   spawn('render-server');
-  spawn('flux-server');
 }
 else if(process.env.ROLE === 'render-server') {
   require('./render-server');
-}
-else if(process.env.ROLE === 'flux-server') {
-  require('./flux-server');
 }
 else {
   throw new Error('Unknown role: ' + process.env.ROLE);

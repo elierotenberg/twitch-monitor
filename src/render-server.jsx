@@ -36,14 +36,14 @@ function handleError(res) {
 function mountAppCode({ appRootID, data }) {
   return `
     ;(function(data, appRootID) {
-      window.startReactNexusChat(data, document.getElementById(appRootID));
+      window.startReactNexusTwitchMonitor(data, document.getElementById(appRootID));
     })(JSON.parse('${jsesc(JSON.stringify(data))}'), JSON.parse('${jsesc(JSON.stringify(appRootID))}'))
   `;
 }
 
 const stylesheets = {
   'semantic': rSemantic,
-  'react-nexus-chat-css': rCSS,
+  'react-nexus-css': rCSS,
 };
 
 express()
@@ -58,8 +58,8 @@ express()
     <head>
       <meta charset="utf-8">
       <meta charset="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>React Nexus Chat</title>
-      <meta name="description" content="The *famous* React Nexus Chat">
+      <title>Twitch Monitor</title>
+      <meta name="description" content="Twitch Monitor">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <link rel="icon" href="${rFavicon}" type="image/x-icon">
       ${_.map(stylesheets, (href, id) => `<link id="${id}" rel="stylesheet" href="${href}">`).join('\n')}

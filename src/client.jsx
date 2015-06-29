@@ -8,7 +8,7 @@ if(__DEV__) {
   __BROWSER__.should.be.true;
 }
 
-window.startReactNexusChat = (data, container) => {
+window.startReactNexusTwitchMonitor = (data, container) => {
   const clientID = uuid.v1();
   React.render(<App data={data} clientID={clientID} window={window} />, container);
 };
