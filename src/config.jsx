@@ -9,10 +9,10 @@ export default {
   render: {
     port: {
       public: 80,
-      private: 80,
+      private: 19926,
     },
-    host: 'localhost',
-    protocol: 'http',
+    host: 'twitch-monitor.rotenberg.io',
+    protocol: 'https',
   },
 
   intl: {
